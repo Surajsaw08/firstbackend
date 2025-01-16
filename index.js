@@ -51,6 +51,9 @@ app.get('/twitter',(req,res)=>{
 app.get('/login',(req,res)=>{
   res.send('<h1>login/signup</h1>')
 })
+app.get('/login2',(req,res)=>{
+  res.send('<h1>login/signup</h1>')
+})
 
 app.get('/github',(req,res)=>{
   res.json(githubjson);
